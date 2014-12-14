@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+  <url>
+    <loc>http://chuongdang.com/blog/2014/10/12/reading-list-week-4</loc>
+    
+    <lastmod>2014-10-12T13:57:36+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/blog/2014/10/09/how-to-install-swrl-tab-plugin-for-protege-5</loc>
+    
+    <lastmod>2014-10-09T23:45:00+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/blog/2014/10/05/reading-list-week-3</loc>
+    
+    <lastmod>2014-10-05T23:25:29+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/blog/2014/09/27/reading-list-week-2</loc>
+    
+    <lastmod>2014-09-27T10:22:58+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/blog/2014/09/20/reading-list-week-1</loc>
+    
+    <lastmod>2014-09-20T15:19:47+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/blog/2014/09/15/how-to-build-this-blog</loc>
+    
+    <lastmod>2014-09-15T13:19:42+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/blog/2014/08/20/third-day-of-advancded-network-security-class</loc>
+    
+    <lastmod>2014-08-20T00:00:00+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/blog/2014/08/20/afternoon-third-day-of-advanced-network-security-class</loc>
+    
+    <lastmod>2014-08-20T00:00:00+07:00</lastmod>
+    
+    <priority>0.8</priority>
+  </url>
+  
+  
+  <url>
+    <loc>http://chuongdang.com/</loc>
+    <lastmod>2014-12-14T11:25:24+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/blog/archives/</loc>
+    <lastmod>2014-12-14T11:25:24+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/tags/</loc>
+    <lastmod>2014-12-14T11:25:24+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/search/</loc>
+    <lastmod>2014-12-14T11:25:24+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>http://chuongdang.com/about/</loc>
+    <lastmod>2014-12-14T11:25:24+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  
+  
+</urlset>
