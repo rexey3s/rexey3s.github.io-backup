@@ -24,8 +24,7 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
     <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
-    <Import>http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl</Import>
-    <Import>http://www.w3.org/2003/11/swrlb</Import>
+
     <Declaration>
         <Class IRI="#Aircraft"/>
     </Declaration>
