@@ -29,16 +29,10 @@
         <Class IRI="#Aircraft"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Axile"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Bike"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Boat"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Body"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bus"/>
@@ -53,46 +47,19 @@
         <Class IRI="#CargoAircraft"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cruiser"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Diesel"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Driver"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ElectricEngine"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Engine"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ExpressTrain"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#FighterAircraft"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FixedWing"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Helicopter"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ICE"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Metro"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#More_Cargo"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Motorcycle"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#OnRoadAndOffRoadVehicle"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Passenger"/>
@@ -107,22 +74,16 @@
         <Class IRI="#Pilot"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#RailWayTransport"/>
+        <Class IRI="#RoadVehicle"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rotor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#RotorSystem"/>
+        <Class IRI="#Sailor"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ShipAndVessel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Sprocket"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Steam"/>
+        <Class IRI="#Ship"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Truck"/>
@@ -135,9 +96,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Vessel"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Wagon"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Weapon"/>
@@ -158,22 +116,28 @@
         <ObjectProperty IRI="#canCarry"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#control"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEngine"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#hasParts"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRotor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWing"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isControlledBy"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isPartOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#moveOn"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#canCarry"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#canCarryCargo"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#canCarryNumberOf"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#canCarryNumberOfPassenger"/>
@@ -188,58 +152,37 @@
         <DataProperty IRI="#canMoveOnOrIn"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasNumberOf"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#hasNumberOfRotors"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#hasNumberOfSeats"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#hasNumberOfWheels"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#hasNumberOfWings"/>
+        <NamedIndividual IRI="#A1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#A10"/>
+        <NamedIndividual IRI="#A2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Airbus_A380"/>
+        <NamedIndividual IRI="#A3"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#AudiQ7"/>
+        <NamedIndividual IRI="#A4"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#BMWi5"/>
+        <NamedIndividual IRI="#AircraftEngine"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#CoaxialRotorSystem"/>
+        <NamedIndividual IRI="#Anh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CarEngine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Charlie"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Container"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#DualRotorsSystem"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#EC145"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#F16"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#Freightliner_M2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#HellfireMissile"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#HondaCBR250"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#HondaDream"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#Lifeboat"/>
@@ -248,37 +191,55 @@
         <NamedIndividual IRI="#MachineGun"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Martin107"/>
+        <NamedIndividual IRI="#Missile"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Minivan"/>
+        <NamedIndividual IRI="#MotorEngine"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#NOTARsystem"/>
+        <NamedIndividual IRI="#Nguyen"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#QueenMarry2"/>
+        <NamedIndividual IRI="#Peter"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SingleCylinder"/>
+        <NamedIndividual IRI="#Rotor1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#StraightWing"/>
+        <NamedIndividual IRI="#S1"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SweptWing"/>
+        <NamedIndividual IRI="#S2"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#SwingWing"/>
+        <NamedIndividual IRI="#S3"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#TandemRotorsSystem"/>
+        <NamedIndividual IRI="#SmallCargo"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#Titanic"/>
+        <NamedIndividual IRI="#Steve"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#YellowBus"/>
+        <NamedIndividual IRI="#V1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#V2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#V3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#V4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wheel1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XWing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YWing"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -302,56 +263,50 @@
         <Class IRI="#Aircraft"/>
         <ObjectIntersectionOf>
             <Class IRI="#Vehicle"/>
-            <DataHasValue>
-                <DataProperty IRI="#canMoveOnOrIn"/>
-                <Literal datatypeIRI="&rdf;PlainLiteral">Sky</Literal>
-            </DataHasValue>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#isControlledBy"/>
+                <Class IRI="#Pilot"/>
+            </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#CargoAircraft"/>
         <ObjectIntersectionOf>
             <Class IRI="#Aircraft"/>
-            <ObjectAllValuesFrom>
+            <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#canCarry"/>
                 <Class IRI="#Cargo"/>
-            </ObjectAllValuesFrom>
+            </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#OnRoadAndOffRoadVehicle"/>
+        <Class IRI="#PassengerAircraft"/>
         <ObjectIntersectionOf>
-            <Class IRI="#Vehicle"/>
-            <DataHasValue>
-                <DataProperty IRI="#canMoveOnOrIn"/>
-                <Literal datatypeIRI="&rdf;PlainLiteral">OnRoadOrOffRoad</Literal>
-            </DataHasValue>
+            <Class IRI="#Aircraft"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#canCarry"/>
+                <Class IRI="#Passenger"/>
+            </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#RailWayTransport"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Vehicle"/>
-            <DataHasValue>
-                <DataProperty IRI="#canMoveOnOrIn"/>
-                <Literal datatypeIRI="&rdf;PlainLiteral">Rail</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
+        <Class IRI="#RoadVehicle"/>
+        <DataHasValue>
+            <DataProperty IRI="#canMoveOnOrIn"/>
+            <Literal datatypeIRI="&rdf;PlainLiteral">Road</Literal>
+        </DataHasValue>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#ShipAndVessel"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Vehicle"/>
-            <DataHasValue>
-                <DataProperty IRI="#canMoveOnOrIn"/>
-                <Literal datatypeIRI="&rdf;PlainLiteral">Water</Literal>
-            </DataHasValue>
-        </ObjectIntersectionOf>
+        <Class IRI="#Ship"/>
+        <DataHasValue>
+            <DataProperty IRI="#canMoveOnOrIn"/>
+            <Literal datatypeIRI="&rdf;PlainLiteral">Water</Literal>
+        </DataHasValue>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#Truck"/>
         <ObjectIntersectionOf>
-            <Class IRI="#OnRoadAndOffRoadVehicle"/>
+            <Class IRI="#RoadVehicle"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#canCarry"/>
                 <Class IRI="#Cargo"/>
@@ -371,38 +326,31 @@
     <EquivalentClasses>
         <Class IRI="#Vessel"/>
         <ObjectIntersectionOf>
-            <Class IRI="#ShipAndVessel"/>
+            <Class IRI="#Ship"/>
             <ObjectAllValuesFrom>
                 <ObjectProperty IRI="#canCarry"/>
                 <Class IRI="#Cargo"/>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#WingAircraft"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Aircraft"/>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasParts"/>
-                <Class IRI="#FixedWing"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="#Aircraft"/>
         <Class IRI="#Vehicle"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Axile"/>
-        <Class IRI="#VehicleComponent"/>
+        <Class IRI="#Aircraft"/>
+        <DataHasValue>
+            <DataProperty IRI="#canMoveOnOrIn"/>
+            <Literal datatypeIRI="&rdf;PlainLiteral">Sky</Literal>
+        </DataHasValue>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bike"/>
-        <Class IRI="#OnRoadAndOffRoadVehicle"/>
+        <Class IRI="#RoadVehicle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Boat"/>
-        <Class IRI="#ShipAndVessel"/>
+        <Class IRI="#Ship"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Boat"/>
@@ -412,59 +360,49 @@
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Body"/>
-        <Class IRI="#VehicleComponent"/>
+        <Class IRI="#Bus"/>
+        <Class IRI="#RoadVehicle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bus"/>
-        <Class IRI="#OnRoadAndOffRoadVehicle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#canCarry"/>
+            <Class IRI="#Passenger"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Car"/>
-        <Class IRI="#OnRoadAndOffRoadVehicle"/>
+        <Class IRI="#RoadVehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Car"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParts"/>
+            <Class IRI="#Engine"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#CargoAircraft"/>
         <Class IRI="#Aircraft"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Cruiser"/>
-        <Class IRI="#ShipAndVessel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cruiser"/>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#canCarry"/>
-            <Class IRI="#Passenger"/>
-        </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Diesel"/>
-        <Class IRI="#Engine"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Driver"/>
         <Class IRI="#People"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ElectricEngine"/>
-        <Class IRI="#Engine"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Engine"/>
         <Class IRI="#VehicleComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ExpressTrain"/>
-        <Class IRI="#RailWayTransport"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#FighterAircraft"/>
         <Class IRI="#Aircraft"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#FixedWing"/>
-        <Class IRI="#Wing"/>
+        <Class IRI="#FighterAircraft"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParts"/>
+            <Class IRI="#Weapon"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Helicopter"/>
@@ -472,32 +410,21 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Helicopter"/>
-        <ObjectComplementOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasParts"/>
-                <Class IRI="#FixedWing"/>
-            </ObjectSomeValuesFrom>
-        </ObjectComplementOf>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ICE"/>
-        <Class IRI="#Engine"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Metro"/>
-        <Class IRI="#RailWayTransport"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#More_Cargo"/>
-        <Class IRI="#Cargo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParts"/>
+            <Class IRI="#Rotor"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Motorcycle"/>
-        <Class IRI="#OnRoadAndOffRoadVehicle"/>
+        <Class IRI="#RoadVehicle"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#OnRoadAndOffRoadVehicle"/>
-        <Class IRI="#Vehicle"/>
+        <Class IRI="#Motorcycle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParts"/>
+            <Class IRI="#Engine"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Passenger"/>
@@ -512,47 +439,42 @@
         <Class IRI="#People"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#RailWayTransport"/>
+        <Class IRI="#RoadVehicle"/>
         <Class IRI="#Vehicle"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RoadVehicle"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#isControlledBy"/>
+            <Class IRI="#Driver"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Rotor"/>
         <Class IRI="#VehicleComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#RotorSystem"/>
-        <Class IRI="#VehicleComponent"/>
+        <Class IRI="#Sailor"/>
+        <Class IRI="#People"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ShipAndVessel"/>
+        <Class IRI="#Ship"/>
         <Class IRI="#Vehicle"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ShipAndVessel"/>
+        <Class IRI="#Ship"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#canCarry"/>
-            <Class IRI="#Passenger"/>
+            <ObjectProperty IRI="#isControlledBy"/>
+            <Class IRI="#Sailor"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Sprocket"/>
-        <Class IRI="#VehicleComponent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Steam"/>
-        <Class IRI="#Engine"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Truck"/>
-        <Class IRI="#OnRoadAndOffRoadVehicle"/>
+        <Class IRI="#RoadVehicle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vessel"/>
-        <Class IRI="#ShipAndVessel"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Wagon"/>
-        <Class IRI="#VehicleComponent"/>
+        <Class IRI="#Ship"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Weapon"/>
@@ -570,61 +492,65 @@
         <Class IRI="#WingAircraft"/>
         <Class IRI="#Aircraft"/>
     </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WingAircraft"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasParts"/>
+            <Class IRI="#Wing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Aircraft"/>
+        <Class IRI="#RoadVehicle"/>
+        <Class IRI="#Ship"/>
+    </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Helicopter"/>
         <Class IRI="#WingAircraft"/>
     </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Rotor"/>
+        <Class IRI="#Wing"/>
+    </DisjointClasses>
     <ClassAssertion>
         <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#A10"/>
+        <NamedIndividual IRI="#A1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#Airbus_A380"/>
+        <NamedIndividual IRI="#A2"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#AudiQ7"/>
+        <NamedIndividual IRI="#A3"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#BMWi5"/>
+        <NamedIndividual IRI="#A4"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#RotorSystem"/>
-        <NamedIndividual IRI="#CoaxialRotorSystem"/>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="#AircraftEngine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passenger"/>
+        <NamedIndividual IRI="#Anh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pilot"/>
+        <NamedIndividual IRI="#Anh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="#CarEngine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passenger"/>
+        <NamedIndividual IRI="#Charlie"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Cargo"/>
         <NamedIndividual IRI="#Container"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#RotorSystem"/>
-        <NamedIndividual IRI="#DualRotorsSystem"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#EC145"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#F16"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#Freightliner_M2"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Weapon"/>
-        <NamedIndividual IRI="#HellfireMissile"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#HondaCBR250"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#HondaDream"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Boat"/>
@@ -635,194 +561,168 @@
         <NamedIndividual IRI="#MachineGun"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#Martin107"/>
+        <Class IRI="#Weapon"/>
+        <NamedIndividual IRI="#Missile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Engine"/>
+        <NamedIndividual IRI="#MotorEngine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passenger"/>
+        <NamedIndividual IRI="#Nguyen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pilot"/>
+        <NamedIndividual IRI="#Nguyen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passenger"/>
+        <NamedIndividual IRI="#Peter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Rotor"/>
+        <NamedIndividual IRI="#Rotor1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#Minivan"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#RotorSystem"/>
-        <NamedIndividual IRI="#NOTARsystem"/>
+        <NamedIndividual IRI="#S1"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#QueenMarry2"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#ICE"/>
-        <NamedIndividual IRI="#SingleCylinder"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#FixedWing"/>
-        <NamedIndividual IRI="#StraightWing"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#FixedWing"/>
-        <NamedIndividual IRI="#SweptWing"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#FixedWing"/>
-        <NamedIndividual IRI="#SwingWing"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#RotorSystem"/>
-        <NamedIndividual IRI="#TandemRotorsSystem"/>
+        <NamedIndividual IRI="#S2"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#Titanic"/>
+        <NamedIndividual IRI="#S3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cargo"/>
+        <NamedIndividual IRI="#SmallCargo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Passenger"/>
+        <NamedIndividual IRI="#Steve"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#YellowBus"/>
+        <NamedIndividual IRI="#V1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehicle"/>
+        <NamedIndividual IRI="#V2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehicle"/>
+        <NamedIndividual IRI="#V3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RoadVehicle"/>
+        <NamedIndividual IRI="#V4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vehicle"/>
+        <NamedIndividual IRI="#V4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wheel"/>
+        <NamedIndividual IRI="#Wheel1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wing"/>
+        <NamedIndividual IRI="#XWing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Wing"/>
+        <NamedIndividual IRI="#YWing"/>
     </ClassAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#canCarry"/>
-        <NamedIndividual IRI="#A10"/>
-        <NamedIndividual IRI="#HellfireMissile"/>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#Charlie"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isControlledBy"/>
+        <NamedIndividual IRI="#A1"/>
+        <NamedIndividual IRI="#Anh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWing"/>
+        <NamedIndividual IRI="#A2"/>
+        <NamedIndividual IRI="#XWing"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#hasParts"/>
-        <NamedIndividual IRI="#A10"/>
-        <NamedIndividual IRI="#StraightWing"/>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#Rotor1"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasParts"/>
-        <NamedIndividual IRI="#Airbus_A380"/>
-        <NamedIndividual IRI="#SweptWing"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasParts"/>
-        <NamedIndividual IRI="#EC145"/>
-        <NamedIndividual IRI="#DualRotorsSystem"/>
+        <ObjectProperty IRI="#isControlledBy"/>
+        <NamedIndividual IRI="#A3"/>
+        <NamedIndividual IRI="#Nguyen"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#canCarry"/>
-        <NamedIndividual IRI="#F16"/>
-        <NamedIndividual IRI="#MachineGun"/>
+        <NamedIndividual IRI="#V1"/>
+        <NamedIndividual IRI="#Peter"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#canCarry"/>
-        <NamedIndividual IRI="#F16"/>
-        <NamedIndividual IRI="#HellfireMissile"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#hasParts"/>
-        <NamedIndividual IRI="#F16"/>
-        <NamedIndividual IRI="#SwingWing"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#canCarry"/>
-        <NamedIndividual IRI="#Freightliner_M2"/>
+        <NamedIndividual IRI="#V2"/>
         <NamedIndividual IRI="#Container"/>
     </ObjectPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#A10"/>
-        <Literal datatypeIRI="&xsd;string">Sky</Literal>
+        <NamedIndividual IRI="#S1"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Water</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
-        <DataProperty IRI="#canCarryNumberOfPassenger"/>
-        <NamedIndividual IRI="#Airbus_A380"/>
-        <Literal datatypeIRI="&xsd;int">853</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#Airbus_A380"/>
-        <Literal datatypeIRI="&xsd;string">Sky</Literal>
+        <DataProperty IRI="#canCarryTheAmountOfCargo"/>
+        <NamedIndividual IRI="#S2"/>
+        <Literal datatypeIRI="&xsd;integer">101</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#AudiQ7"/>
-        <Literal datatypeIRI="&xsd;string">OnRoadOrOffRoad</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#hasNumberOfSeats"/>
-        <NamedIndividual IRI="#AudiQ7"/>
-        <Literal datatypeIRI="&xsd;int">7</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#BMWi5"/>
-        <Literal datatypeIRI="&xsd;string">OnRoadOrOffRoad</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#hasNumberOfSeats"/>
-        <NamedIndividual IRI="#BMWi5"/>
-        <Literal datatypeIRI="&xsd;int">5</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#EC145"/>
-        <Literal datatypeIRI="&xsd;string">Sky</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#F16"/>
-        <Literal datatypeIRI="&xsd;string">Sky</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#Freightliner_M2"/>
-        <Literal datatypeIRI="&xsd;string">OnRoadOrOffRoad</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#HondaCBR250"/>
-        <Literal datatypeIRI="&xsd;string">OnRoadOrOffRoad</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#HondaDream"/>
-        <Literal datatypeIRI="&xsd;string">OnRoadOrOffRoad</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#Martin107"/>
-        <Literal datatypeIRI="&xsd;string">OnRoadOrOffRoad</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canCarryCargo"/>
-        <NamedIndividual IRI="#Minivan"/>
-        <Literal datatypeIRI="&xsd;boolean">true</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#Minivan"/>
-        <Literal datatypeIRI="&xsd;string">OnRoadOrOffRoad</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canCarryNumberOfPassenger"/>
-        <NamedIndividual IRI="#QueenMarry2"/>
-        <Literal datatypeIRI="&xsd;int">3000</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#QueenMarry2"/>
-        <Literal datatypeIRI="&xsd;string">Water</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canCarryNumberOfPassenger"/>
-        <NamedIndividual IRI="#Titanic"/>
-        <Literal datatypeIRI="&xsd;int">2435</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#Titanic"/>
+        <NamedIndividual IRI="#S2"/>
         <Literal datatypeIRI="&xsd;string">Water</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#canMoveOnOrIn"/>
-        <NamedIndividual IRI="#YellowBus"/>
-        <Literal datatypeIRI="&xsd;string">OnRoadOrOffRoad</Literal>
+        <NamedIndividual IRI="#V1"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Road</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#canMoveOnOrIn"/>
+        <NamedIndividual IRI="#V2"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Road</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#canMoveOnOrIn"/>
+        <NamedIndividual IRI="#V3"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Road</Literal>
     </DataPropertyAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#hasNumberOfSeats"/>
-        <NamedIndividual IRI="#YellowBus"/>
-        <Literal datatypeIRI="&xsd;int">30</Literal>
+        <NamedIndividual IRI="#V3"/>
+        <Literal datatypeIRI="&xsd;integer">6</Literal>
     </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasNumberOfSeats"/>
+        <NamedIndividual IRI="#V4"/>
+        <Literal datatypeIRI="&xsd;integer">21</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEngine"/>
+        <ObjectProperty IRI="#hasParts"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasRotor"/>
+        <ObjectProperty IRI="#hasParts"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasWing"/>
+        <ObjectProperty IRI="#hasParts"/>
+    </SubObjectPropertyOf>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#isPartOf"/>
         <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
@@ -832,31 +732,83 @@
         <ObjectProperty IRI="#canBeCarriedBy"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
+        <ObjectProperty IRI="#control"/>
+        <ObjectProperty IRI="#isControlledBy"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
         <ObjectProperty IRI="#isPartOf"/>
         <ObjectProperty IRI="#hasParts"/>
     </InverseObjectProperties>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#hasParts"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#isPartOf"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#canBeCarriedBy"/>
+        <ObjectUnionOf>
+            <Class IRI="#Cargo"/>
+            <Class IRI="#People"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#canCarry"/>
         <Class IRI="#Vehicle"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasParts"/>
-        <ObjectUnionOf>
-            <Class IRI="#Vehicle"/>
-            <Class IRI="#VehicleComponent"/>
-        </ObjectUnionOf>
+        <ObjectProperty IRI="#control"/>
+        <Class IRI="#People"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#isPartOf"/>
-        <ObjectUnionOf>
-            <Class IRI="#Vehicle"/>
-            <Class IRI="#VehicleComponent"/>
-        </ObjectUnionOf>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#moveOn"/>
+        <ObjectProperty IRI="#hasEngine"/>
         <Class IRI="#Vehicle"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasParts"/>
+        <ObjectUnionOf>
+            <Class IRI="#Vehicle"/>
+            <Class IRI="#VehicleComponent"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasRotor"/>
+        <Class IRI="#Helicopter"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWing"/>
+        <Class IRI="#WingAircraft"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isControlledBy"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isPartOf"/>
+        <ObjectUnionOf>
+            <Class IRI="#Vehicle"/>
+            <Class IRI="#VehicleComponent"/>
+        </ObjectUnionOf>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#canBeCarriedBy"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#canCarry"/>
+        <ObjectUnionOf>
+            <Class IRI="#Cargo"/>
+            <Class IRI="#People"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#control"/>
+        <Class IRI="#Vehicle"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasEngine"/>
+        <Class IRI="#VehicleComponent"/>
+    </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasParts"/>
         <ObjectUnionOf>
@@ -865,44 +817,24 @@
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasRotor"/>
+        <Class IRI="#Rotor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWing"/>
+        <Class IRI="#Wing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isControlledBy"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#isPartOf"/>
         <ObjectUnionOf>
             <Class IRI="#Vehicle"/>
             <Class IRI="#VehicleComponent"/>
         </ObjectUnionOf>
     </ObjectPropertyRange>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#canCarryCargo"/>
-        <DataProperty IRI="#canCarry"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#canCarryNumberOfPassenger"/>
-        <DataProperty IRI="#canCarryNumberOf"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#canCarryPassenger"/>
-        <DataProperty IRI="#canCarry"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#canCarryTheAmountOfCargo"/>
-        <DataProperty IRI="#canCarryNumberOf"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasNumberOfRotors"/>
-        <DataProperty IRI="#hasNumberOf"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasNumberOfSeats"/>
-        <DataProperty IRI="#hasNumberOf"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasNumberOfWheels"/>
-        <DataProperty IRI="#hasNumberOf"/>
-    </SubDataPropertyOf>
-    <SubDataPropertyOf>
-        <DataProperty IRI="#hasNumberOfWings"/>
-        <DataProperty IRI="#hasNumberOf"/>
-    </SubDataPropertyOf>
     <FunctionalDataProperty>
         <DataProperty IRI="#canCarryCargo"/>
     </FunctionalDataProperty>
@@ -916,19 +848,28 @@
         <DataProperty IRI="#canCarryTheAmountOfCargo"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
-        <DataProperty IRI="#hasNumberOfRotors"/>
+        <DataProperty IRI="#canMoveOnOrIn"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#hasNumberOfSeats"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#hasNumberOfWheels"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
-        <DataProperty IRI="#hasNumberOfWings"/>
     </FunctionalDataProperty>
     <DataPropertyDomain>
+        <DataProperty IRI="#canCarryCargo"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
         <DataProperty IRI="#canCarryNumberOfPassenger"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#canCarryPassenger"/>
+        <Class IRI="#Vehicle"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#canCarryTheAmountOfCargo"/>
         <Class IRI="#Vehicle"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -936,81 +877,45 @@
         <Class IRI="#Vehicle"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
-        <DataProperty IRI="#hasNumberOfRotors"/>
-        <Class IRI="#Vehicle"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#hasNumberOfSeats"/>
         <Class IRI="#Vehicle"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
         <DataProperty IRI="#hasNumberOfWheels"/>
-        <Class IRI="#OnRoadAndOffRoadVehicle"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#hasNumberOfWings"/>
-        <Class IRI="#Aircraft"/>
+        <Class IRI="#RoadVehicle"/>
     </DataPropertyDomain>
     <DataPropertyRange>
         <DataProperty IRI="#canCarryCargo"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
+        <DataProperty IRI="#canCarryNumberOfPassenger"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
         <DataProperty IRI="#canCarryPassenger"/>
         <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#canCarryTheAmountOfCargo"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#canMoveOnOrIn"/>
         <DataOneOf>
-            <Literal datatypeIRI="&rdf;PlainLiteral">OnRoadOrOffRoad</Literal>
-            <Literal datatypeIRI="&rdf;PlainLiteral">Rail</Literal>
+            <Literal datatypeIRI="&rdf;PlainLiteral">Road</Literal>
             <Literal datatypeIRI="&rdf;PlainLiteral">Sky</Literal>
             <Literal datatypeIRI="&rdf;PlainLiteral">Water</Literal>
         </DataOneOf>
     </DataPropertyRange>
     <DataPropertyRange>
-        <DataProperty IRI="#hasNumberOfRotors"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
+        <DataProperty IRI="#hasNumberOfSeats"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#hasNumberOfWheels"/>
-        <Datatype abbreviatedIRI="xsd:int"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
     </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#hasNumberOfWings"/>
-        <Datatype abbreviatedIRI="xsd:integer"/>
-    </DataPropertyRange>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string">Aircraft which has fixed-wing should be a WingAircraft</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">WingAircraft</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="#Aircraft"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#hasParts"/>
-                <Variable IRI="#x"/>
-                <Variable IRI="#y"/>
-            </ObjectPropertyAtom>
-            <ClassAtom>
-                <Class IRI="#FixedWing"/>
-                <Variable IRI="#y"/>
-            </ClassAtom>
-        </Body>
-        <Head>
-            <ClassAtom>
-                <Class IRI="#WingAircraft"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-        </Head>
-    </DLSafeRule>
     <DLSafeRule>
         <Annotation>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1043,106 +948,9 @@
         </Head>
     </DLSafeRule>
     <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string">Aircraft that carry any passenger (number of passenger &gt; 0)should be Passenger Aircraft</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">PassengerAircraft1</Literal>
-        </Annotation>
         <Body>
             <ClassAtom>
-                <Class IRI="#Aircraft"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-            <DataPropertyAtom>
-                <DataProperty IRI="#canCarryNumberOfPassenger"/>
-                <Variable IRI="#x"/>
-                <Variable IRI="#y"/>
-            </DataPropertyAtom>
-            <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
-                <Variable IRI="#y"/>
-                <Literal datatypeIRI="&xsd;int">0</Literal>
-            </BuiltInAtom>
-        </Body>
-        <Head>
-            <ClassAtom>
-                <Class IRI="#PassengerAircraft"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string">OnRoadAndOffRoadVehicle which can carry some cargo should be a Truck</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">Truck</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="#OnRoadAndOffRoadVehicle"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#canCarry"/>
-                <Variable IRI="#x"/>
-                <Variable IRI="#y"/>
-            </ObjectPropertyAtom>
-            <ClassAtom>
-                <Class IRI="#Cargo"/>
-                <Variable IRI="#y"/>
-            </ClassAtom>
-        </Body>
-        <Head>
-            <ClassAtom>
-                <Class IRI="#Truck"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string">OnRoadAndOffRoad Vehicle which canCarryCargo should be a Truck too</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">Truck2</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="#OnRoadAndOffRoadVehicle"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-            <DataPropertyAtom>
-                <DataProperty IRI="#canCarryCargo"/>
-                <Variable IRI="#x"/>
-                <Literal datatypeIRI="&xsd;boolean">true</Literal>
-            </DataPropertyAtom>
-        </Body>
-        <Head>
-            <ClassAtom>
-                <Class IRI="#Truck"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string">OnRoadAndOffRoadVehicle which has number of seats greater than 20 will be a Bus</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">Bus</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="#OnRoadAndOffRoadVehicle"/>
+                <Class IRI="#RoadVehicle"/>
                 <Variable IRI="#x"/>
             </ClassAtom>
             <DataPropertyAtom>
@@ -1163,17 +971,9 @@
         </Head>
     </DLSafeRule>
     <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string">OnRoadAndOffRoad Vehicle which has number of seats greater than or equal 4 and less than or equal 7 should be a Car</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">Car</Literal>
-        </Annotation>
         <Body>
             <ClassAtom>
-                <Class IRI="#OnRoadAndOffRoadVehicle"/>
+                <Class IRI="#RoadVehicle"/>
                 <Variable IRI="#x"/>
             </ClassAtom>
             <DataPropertyAtom>
@@ -1198,59 +998,20 @@
         </Head>
     </DLSafeRule>
     <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string">Cruisers are capable in carrying greater than 500 passengers</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">CruiserFact1</Literal>
-        </Annotation>
         <Body>
             <ClassAtom>
-                <Class IRI="#ShipAndVessel"/>
+                <Class IRI="#Ship"/>
                 <Variable IRI="#x"/>
             </ClassAtom>
-            <DataPropertyAtom>
-                <DataProperty IRI="#canCarryNumberOfPassenger"/>
-                <Variable IRI="#x"/>
-                <Variable IRI="#y"/>
-            </DataPropertyAtom>
             <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
                 <Variable IRI="#y"/>
-                <Literal datatypeIRI="&xsd;int">500</Literal>
+                <Literal datatypeIRI="&xsd;int">100</Literal>
             </BuiltInAtom>
-        </Body>
-        <Head>
-            <ClassAtom>
-                <Class IRI="#Cruiser"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string">Vessels are ships that can carry the amount of cargo greater than 100 (Tons).</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">VesselFact1</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="#ShipAndVessel"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
             <DataPropertyAtom>
                 <DataProperty IRI="#canCarryTheAmountOfCargo"/>
                 <Variable IRI="#x"/>
                 <Variable IRI="#y"/>
             </DataPropertyAtom>
-            <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
-                <Variable IRI="#y"/>
-                <Literal datatypeIRI="&xsd;int">100</Literal>
-            </BuiltInAtom>
         </Body>
         <Head>
             <ClassAtom>
@@ -1259,186 +1020,25 @@
             </ClassAtom>
         </Head>
     </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string"></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">FindVehicle</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="#Vehicle"/>
-                <Variable IRI="#v"/>
-            </ClassAtom>
-        </Body>
-        <Head>
-            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
-                <Variable IRI="#v"/>
-            </BuiltInAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string"></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">OnRoadAndOffRoadVehicle2</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="#Vehicle"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-            <DataPropertyAtom>
-                <DataProperty IRI="#canMoveOnOrIn"/>
-                <Variable IRI="#x"/>
-                <Literal datatypeIRI="&xsd;string">OnRoadOrOffRoad</Literal>
-            </DataPropertyAtom>
-        </Body>
-        <Head>
-            <ClassAtom>
-                <Class IRI="#OnRoadAndOffRoadVehicle"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string">Vehicle which can move on the sky should be an Aircraft</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">Aircraft</Literal>
-        </Annotation>
-        <Body>
-            <ClassAtom>
-                <Class IRI="#Vehicle"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-            <DataPropertyAtom>
-                <DataProperty IRI="#canMoveOnOrIn"/>
-                <Variable IRI="#x"/>
-                <Literal datatypeIRI="&xsd;string">Sky</Literal>
-            </DataPropertyAtom>
-        </Body>
-        <Head>
-            <ClassAtom>
-                <Class IRI="#Aircraft"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string"></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">Find all can carry some things</Literal>
-        </Annotation>
-        <Body>
-            <ObjectPropertyAtom>
-                <ObjectProperty IRI="#canCarry"/>
-                <Variable IRI="#x"/>
-                <Variable IRI="#y"/>
-            </ObjectPropertyAtom>
-        </Body>
-        <Head>
-            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
-                <Variable IRI="#x"/>
-                <Variable IRI="#y"/>
-            </BuiltInAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string"></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">Find all can carry passenger</Literal>
-        </Annotation>
-        <Body>
-            <DataPropertyAtom>
-                <DataProperty IRI="#canCarryNumberOfPassenger"/>
-                <Variable IRI="#x"/>
-                <Variable IRI="#y"/>
-            </DataPropertyAtom>
-            <BuiltInAtom abbreviatedIRI="swrlb:greaterThan">
-                <Variable IRI="#y"/>
-                <Literal datatypeIRI="&xsd;int">0</Literal>
-            </BuiltInAtom>
-        </Body>
-        <Head>
-            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
-                <Variable IRI="#x"/>
-                <Variable IRI="#y"/>
-            </BuiltInAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string"></Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">FindCar</Literal>
-        </Annotation>
-        <Body>
-            <DataPropertyAtom>
-                <DataProperty IRI="#hasNumberOfSeats"/>
-                <Variable IRI="#x"/>
-                <Variable IRI="#s"/>
-            </DataPropertyAtom>
-        </Body>
-        <Head>
-            <BuiltInAtom IRI="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select">
-                <Variable IRI="#x"/>
-                <Variable IRI="#s"/>
-            </BuiltInAtom>
-        </Head>
-    </DLSafeRule>
-    <DLSafeRule>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-            <Literal datatypeIRI="&xsd;string">Vehicle that has wheel(s) should be OnRoadAndOffRoadVehicle</Literal>
-        </Annotation>
-        <Annotation>
-            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-            <Literal datatypeIRI="&xsd;string">OnRoadAndOffRoadVehicle</Literal>
-        </Annotation>
-        <Body>
-            <DataPropertyAtom>
-                <DataProperty IRI="#hasNumberOfWheels"/>
-                <Variable IRI="#x"/>
-                <Variable IRI="#w"/>
-            </DataPropertyAtom>
-        </Body>
-        <Head>
-            <ClassAtom>
-                <Class IRI="#OnRoadAndOffRoadVehicle"/>
-                <Variable IRI="#x"/>
-            </ClassAtom>
-        </Head>
-    </DLSafeRule>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#A10</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">A10</Literal>
+        <IRI>#A1</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#Airbus_A380</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Airbus_A380</Literal>
+        <IRI>#A2</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#A3</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#A4</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">A4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1452,23 +1052,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#AudiQ7</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">AudiQ7</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Axile</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Axiles</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Axile</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Axile</Literal>
+        <IRI>#AircraftEngine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">AircraftEngine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#BMWi5</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">BMWi5</Literal>
+        <IRI>#Anh</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Anh</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1492,16 +1082,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Body</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Bodies</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Body</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Body</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#Bus</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Busses</Literal>
     </AnnotationAssertion>
@@ -1519,6 +1099,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
         <IRI>#Car</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Car</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#CarEngine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">CarEngine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1542,33 +1127,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#CoaxialRotorSystem</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">CoaxialRotorSystem</Literal>
+        <IRI>#Charlie</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Charlie</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Container</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Container</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Cruiser</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Cruisers</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Cruiser</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Cruiser</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Diesel</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Diesels</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Diesel</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Diesel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1579,26 +1144,6 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
         <IRI>#Driver</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Driver</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#DualRotorsSystem</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">DualRotorsSystem</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#EC145</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">EC145</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#ElectricEngine</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">ElectricEngines</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#ElectricEngine</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">ElectricEngine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1612,21 +1157,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#ExpressTrain</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">ExpressTrains</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#ExpressTrain</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">ExpressTrain</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#F16</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">F16</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#FighterAircraft</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">FighterAircrafts</Literal>
     </AnnotationAssertion>
@@ -1634,21 +1164,6 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
         <IRI>#FighterAircraft</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">FighterAircraft</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#FixedWing</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">FixedWings</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#FixedWing</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">FixedWing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#Freightliner_M2</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Freightliner_M2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1662,31 +1177,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#HellfireMissile</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">HellfireMissile</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#HondaCBR250</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">HondaCBR250</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#HondaDream</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">HondaDream</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#ICE</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">ICEs</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#ICE</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">ICE</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
         <IRI>#Lifeboat</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Lifeboat</Literal>
     </AnnotationAssertion>
@@ -1697,33 +1187,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#Martin107</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Martin107</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Metro</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Metroes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Metro</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Metro</Literal>
+        <IRI>#Missile</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Missile</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#Minivan</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Minivan</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#More_Cargo</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">More_Cargoes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#More_Cargo</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">More_Cargo</Literal>
+        <IRI>#MotorEngine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">MotorEngine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1737,18 +1207,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#NOTARsystem</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">NOTARsystem</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#OnRoadAndOffRoadVehicle</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">OnRoadAndOffRoadVehicles</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#OnRoadAndOffRoadVehicle</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">OnRoadAndOffRoadVehicle</Literal>
+        <IRI>#Nguyen</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Nguyen</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1781,6 +1241,11 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">People</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Peter</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Peter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#Pilot</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Pilots</Literal>
@@ -1791,19 +1256,14 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Pilot</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#QueenMarry2</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">QueenMarry2</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#RailWayTransport</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">RailWayTransports</Literal>
+        <IRI>#RoadVehicle</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OnRoadAndOffRoadVehicles</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#RailWayTransport</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">RailWayTransport</Literal>
+        <IRI>#RoadVehicle</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">OnRoadAndOffRoadVehicle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1816,74 +1276,54 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">Rotor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Rotor1</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Rotor1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#S1</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">S1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#S2</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">S2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#S3</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">S3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#RotorSystem</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">RotorSystems</Literal>
+        <IRI>#Sailor</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Sailors</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#RotorSystem</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">RotorSystem</Literal>
+        <IRI>#Sailor</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Sailor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#ShipAndVessel</IRI>
+        <IRI>#Ship</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">ShipAndVessels</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#ShipAndVessel</IRI>
+        <IRI>#Ship</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">ShipAndVessel</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#SingleCylinder</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">SingleCylinder</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Sprocket</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Sprockets</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Sprocket</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Sprocket</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Steam</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Steams</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Steam</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Steam</Literal>
+        <IRI>#SmallCargo</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SmallCargo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#StraightWing</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">StraightWing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#SweptWing</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">SweptWing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#SwingWing</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">SwingWing</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#TandemRotorsSystem</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">TandemRotorsSystem</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#Titanic</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Titanic</Literal>
+        <IRI>#Steve</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Steve</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1894,6 +1334,26 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
         <IRI>#Truck</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Truck</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#V1</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">V1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#V2</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">V2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#V3</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">V3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#V4</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">V4</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1927,16 +1387,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
-        <IRI>#Wagon</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Wagons</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
-        <IRI>#Wagon</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Wagon</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#Weapon</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Weapons</Literal>
     </AnnotationAssertion>
@@ -1954,6 +1404,11 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_sg"/>
         <IRI>#Wheel</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Wheel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#Wheel1</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Wheel1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
@@ -1977,8 +1432,13 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#YellowBus</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">YellowBus</Literal>
+        <IRI>#XWing</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">XWing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
+        <IRI>#YWing</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">YWing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
@@ -2024,21 +1484,6 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
         <IRI>#canCarryCargo</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">canCarryCargoed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#canCarryNumberOf</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">canCarryNumberOf</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#canCarryNumberOf</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">canCarryNumberOfs</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#canCarryNumberOf</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">canCarryNumberOfed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
@@ -2102,33 +1547,33 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#hasNumberOf</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">hasNumberOf</Literal>
+        <IRI>#control</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">control</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#hasNumberOf</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">hasNumberOfs</Literal>
+        <IRI>#control</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">controls</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#hasNumberOf</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">hasNumberOfed</Literal>
+        <IRI>#control</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">controlled</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#hasNumberOfRotors</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">hasNumberOfRotors</Literal>
+        <IRI>#hasEngine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hasEngine</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#hasNumberOfRotors</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">hasNumberOfRotorses</Literal>
+        <IRI>#hasEngine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hasEngines</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#hasNumberOfRotors</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">hasNumberOfRotorsed</Literal>
+        <IRI>#hasEngine</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hasEngined</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
@@ -2162,21 +1607,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#hasNumberOfWings</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">hasNumberOfWings</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#hasNumberOfWings</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">hasNumberOfWingses</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#hasNumberOfWings</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">hasNumberOfWingsed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
         <IRI>#hasParts</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">hasParts</Literal>
     </AnnotationAssertion>
@@ -2192,6 +1622,51 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
+        <IRI>#hasRotor</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hasRotor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
+        <IRI>#hasRotor</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hasRotors</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
+        <IRI>#hasRotor</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hasRotored</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
+        <IRI>#hasWing</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hasWing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
+        <IRI>#hasWing</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hasWings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
+        <IRI>#hasWing</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">hasWung</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
+        <IRI>#isControlledBy</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">isControlledBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
+        <IRI>#isControlledBy</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">isControlledBies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
+        <IRI>#isControlledBy</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">isControlledBied</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
         <IRI>#isPartOf</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">isPartOf</Literal>
     </AnnotationAssertion>
@@ -2204,21 +1679,6 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
         <IRI>#isPartOf</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">isPartOfed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#moveOn</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">moveOn</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#moveOn</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">moveOns</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#moveOn</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">moveOned</Literal>
     </AnnotationAssertion>
 </Ontology>
 
