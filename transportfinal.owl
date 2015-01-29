@@ -137,13 +137,7 @@
         <ObjectProperty IRI="#isPartOf"/>
     </Declaration>
     <Declaration>
-        <DataProperty IRI="#canCarryCargo"/>
-    </Declaration>
-    <Declaration>
         <DataProperty IRI="#canCarryNumberOfPassenger"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="#canCarryPassenger"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#canCarryTheAmountOfCargo"/>
@@ -210,9 +204,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#S2"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#S3"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#SmallCargo"/>
@@ -593,10 +584,6 @@
         <NamedIndividual IRI="#S2"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="#Vehicle"/>
-        <NamedIndividual IRI="#S3"/>
-    </ClassAssertion>
-    <ClassAssertion>
         <Class IRI="#Cargo"/>
         <NamedIndividual IRI="#SmallCargo"/>
     </ClassAssertion>
@@ -670,11 +657,6 @@
         <ObjectProperty IRI="#isControlledBy"/>
         <NamedIndividual IRI="#A4"/>
         <NamedIndividual IRI="#Nguyen"/>
-    </ObjectPropertyAssertion>
-    <ObjectPropertyAssertion>
-        <ObjectProperty IRI="#canCarry"/>
-        <NamedIndividual IRI="#S3"/>
-        <NamedIndividual IRI="#Missile"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="#canCarry"/>
@@ -846,13 +828,7 @@
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <FunctionalDataProperty>
-        <DataProperty IRI="#canCarryCargo"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
         <DataProperty IRI="#canCarryNumberOfPassenger"/>
-    </FunctionalDataProperty>
-    <FunctionalDataProperty>
-        <DataProperty IRI="#canCarryPassenger"/>
     </FunctionalDataProperty>
     <FunctionalDataProperty>
         <DataProperty IRI="#canCarryTheAmountOfCargo"/>
@@ -867,15 +843,7 @@
         <DataProperty IRI="#hasNumberOfWheels"/>
     </FunctionalDataProperty>
     <DataPropertyDomain>
-        <DataProperty IRI="#canCarryCargo"/>
-        <Class IRI="#Vehicle"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
         <DataProperty IRI="#canCarryNumberOfPassenger"/>
-        <Class IRI="#Vehicle"/>
-    </DataPropertyDomain>
-    <DataPropertyDomain>
-        <DataProperty IRI="#canCarryPassenger"/>
         <Class IRI="#Vehicle"/>
     </DataPropertyDomain>
     <DataPropertyDomain>
@@ -895,16 +863,8 @@
         <Class IRI="#RoadVehicle"/>
     </DataPropertyDomain>
     <DataPropertyRange>
-        <DataProperty IRI="#canCarryCargo"/>
-        <Datatype abbreviatedIRI="xsd:boolean"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
         <DataProperty IRI="#canCarryNumberOfPassenger"/>
         <Datatype abbreviatedIRI="xsd:positiveInteger"/>
-    </DataPropertyRange>
-    <DataPropertyRange>
-        <DataProperty IRI="#canCarryPassenger"/>
-        <Datatype abbreviatedIRI="xsd:boolean"/>
     </DataPropertyRange>
     <DataPropertyRange>
         <DataProperty IRI="#canCarryTheAmountOfCargo"/>
@@ -1301,11 +1261,6 @@
         <Literal datatypeIRI="&rdf;PlainLiteral">S2</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#PN_sg"/>
-        <IRI>#S3</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">S3</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#CN_pl"/>
         <IRI>#Sailor</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">Sailors</Literal>
@@ -1482,21 +1437,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#canCarryCargo</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">canCarryCargo</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#canCarryCargo</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">canCarryCargoes</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#canCarryCargo</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">canCarryCargoed</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
         <IRI>#canCarryNumberOfPassenger</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">canCarryNumberOfPassenger</Literal>
     </AnnotationAssertion>
@@ -1509,21 +1449,6 @@
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
         <IRI>#canCarryNumberOfPassenger</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">canCarryNumberOfPassengered</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
-        <IRI>#canCarryPassenger</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">canCarryPassenger</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_sg"/>
-        <IRI>#canCarryPassenger</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">canCarryPassengers</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_vbg"/>
-        <IRI>#canCarryPassenger</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">canCarryPassengered</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://attempto.ifi.uzh.ch/ace_lexicon#TV_pl"/>
